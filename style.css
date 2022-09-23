@@ -1,0 +1,130 @@
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    background-color: rgb(179, 179, 179);
+    width: 430px;
+    height: 600px;
+    margin-top: 130px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display {
+    background-color: transparent;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.display div {
+    background-color: white;
+    width: 94%;
+    height: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.display div h2 {
+    font-size: 70px;
+    margin: 0px 15px;
+}
+
+.numpad {
+    width: 294px;
+    height: 396px;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.numb {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 12px;
+    background-color: gray;
+    color: white;
+    font-size: 50px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 9px black;
+}
+
+.numb:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.equal {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 12px;
+    background-color: rgb(230, 53, 53);
+    color: white;
+    font-size: 50px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 9px black;
+}
+
+.equalClear {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 12px;
+    background-color: rgb(230, 53, 53);
+    color: white;
+    font-size: 50px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 9px black;
+}
+
+.equal:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.equalClear:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+
+.mathButtons {
+    width: 90px;
+    height: 396px;
+    background-color: transparent;
+    margin-left: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mathButtons button {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 12px;
+    background-color: rgb(230, 53, 53);
+    color: white;
+    font-size: 50px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 9px black;
+}
+
+.mathButtons button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
